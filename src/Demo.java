@@ -4,7 +4,7 @@ import java.awt.event.WindowEvent;
 
 public class Demo {
     public static void main(String[] args) {
-        Frame wnd=new Frame("Да ну нах!");
+        Frame wnd=new Frame("Добро пожаловать.");
         wnd.setSize(500,400);
         wnd.setLocation(500,400);
         wnd.addWindowListener(new WindowAdapter() {
